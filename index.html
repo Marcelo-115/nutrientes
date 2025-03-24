@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Peso Corporal</title>
+</head>
+<body>
+	<div class="conteiner">
+		<div class="box">	
+			<h1>Tabela de nutrientes</h1>
+
+			<label for="peso">Peso Corporal: </label> <br>
+			<input type="number" name="peso" id="peso"><br>
+			<button onclick="calcularNutrientes()">Calcular</button>
+
+				<div class="resultados">
+					<h3>Resultados: </h3>
+			 			<p id="agua"></p>
+			 			<p id="coposDaguas"></p>
+			 			<p id="proteina"></p>
+			 			<p id="creatina"></p>
+				</div>
+		</div>		
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
