@@ -13,7 +13,7 @@ function calcularNutrientes(){
 	let creatina = peso * 0.03;
 
 
-	document.getElementById('agua').innerText = `Consumo de Agua: ${agua.toFixed(1)} ml por dia`;
+	document.getElementById('agua').innerText = `Consumo de Agua: ${agua.toFixed(1)} l por dia`;
 	document.getElementById('coposDaguas').innerText = `Equivante a ${copos.toFixed(0)} copos de agua de 200 ml por dia`;
 	document.getElementById('proteina').innerText = `Consumo de proteina: ${proteina.toFixed(0)} g por dia`;
 	document.getElementById('creatina').innerText = `Consumo de creatina: ${creatina.toFixed(0)} g por dia`;
